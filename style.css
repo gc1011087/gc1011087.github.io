@@ -1,0 +1,492 @@
+
+/* HEADER */
+
+body{
+	margin: 0;
+	font-family: arial; 
+}
+.info-label{
+	background-color: white;
+	margin: 0; 
+}
+.info-label a{ 
+	margin: 0 20px 0 150px; 
+	color: #444; 
+}
+.header{
+	margin: 0; 
+	background-color: #444; 
+	padding: 20px;
+	height: 50px;
+}
+.title{
+	margin: -11px 20px 20px 115px;
+	background-color: #444; 
+	text-align: left;	
+}
+.title a{
+	font-size: 31px; 
+	color: white; 
+}
+.title a:hover{
+	color: white; 
+}
+div #login{
+	display: inline-block;
+	float: right;
+	margin: -46px 115px 0 0;
+	padding: 5px 15px; 
+	background-color: #444; 
+}
+div #login a{
+	color: white; 
+	text-decoration: none; 
+}
+div #login a:hover{
+	text-decoration: underline; 
+}
+nav{
+	background-color: white; 
+	margin: 0; 
+} 
+nav ul{
+	margin: -1px 0 20px 75px;
+}
+nav ul li{
+	display: inline-block;
+	background-color: white;
+	padding: 5px 15px;
+	margin: 0 148px 0 0;
+}
+nav ul li a{
+	color: black;
+	text-align: center;
+	text-decoration: none; 
+}
+.categorie-container{ 
+	display: none; 
+	position: absolute;
+	left: 0; 
+	background-color: lightgrey;  
+	margin-top: 22px;
+} 
+nav ul li:hover .categorie-container{ 
+	display: inline-block; 
+	height: 200px; 
+	width: 100%;
+}
+.categorie-links{
+	background-color: lightgrey; 
+	width: 200px; 
+	height: 100px; 
+	margin: 20px 0 20px 135px; 
+	display: inline-block;
+	font-size: 15px; 
+}
+.sub-categorie-links{
+	background-color: lightgrey; 
+	margin: 20px 0; 
+}
+.nothing{
+	color: lightgrey; 
+}
+.nothing:hover{
+	text-decoration: none; 
+	color: lightgrey; 
+}
+a:hover{
+	color: #999;
+	text-decoration: underline; 
+}
+.topnav{
+	margin: -52px 0 20px 460px; 
+	position: absolute;
+}
+.topnav input{
+	width: 500px;
+	height: 30px; 
+	border-radius: 7%
+}
+
+/* BLOCKS */
+
+.container1{
+	background-color: white; 
+	height: 500px;
+	margin-top: 30px; 
+}
+.container{
+	background-color: white; 
+	height: 500px;
+	margin-top: -120px; 
+}
+.block{
+	background-color: #111; 
+	width: 1060px; 
+	height: 370px;
+	margin: 40px 20px 0 210px;
+	border-radius: 1%;	
+}
+.block img{
+	width: 500px;
+	margin: -250px 0 0 450px; 
+}
+.macbooksale{
+	font-size: 60px; 
+	font-family: bold; 
+	margin: 20px 0 0 20px; 
+	color: white; 
+}
+.saledescription{
+	font-size: 40px;
+	font-family: bold;
+	margin: 12px 0 0 30px; 
+	color: #999; 
+}
+.section1{
+	float: left;
+	width: 250px; 
+	height: 357px;
+	margin: 40px 10px 0 210px;
+	background-color: white;	
+	border-radius: 1%; 
+}
+.section{
+	float: left;
+	width: 250px; 
+	height: 357px;
+	margin: 40px 10px 0 10px;
+	background-color: white;	
+	border-radius: 1%; 
+}
+.section1 img{ 
+	width: 150px;
+	height: 200px; 
+	margin: 0 0 0 47px; 
+}
+.section img{
+	width: 150px;
+	height: 200px; 
+	margin: 0 0 0 47px; 
+}
+.brand-name{
+	font-size: 15px; 
+	margin: 15px 0 0 0; 
+	text-align: center; 
+}
+.device-name{
+	font-size: 25px; 	
+	margin: 5px 0 15px 0; 
+	text-align: center; 
+}
+.device-storage{
+	font-size: 10px; 
+	margin-left: 103px;  
+	padding: 5px 0;
+	width: 34px; 
+	border: 1px lightgrey; 
+	background-color: white; 
+	color: black; 
+}
+.product-btn{
+	background-color: white;
+	padding: 5px 7px;
+	border: 1px solid black; 
+}
+.product-btn:hover{
+	background-color: #555; 
+}
+.product-btn a{
+	text-decoration: none;
+	color: black;
+	margin-left: 35px; 
+}
+.product-btn a:hover{
+	color: white; 
+}
+.section12{
+	float: left;
+	width: 250px; 
+	height: 357px;
+	margin: 40px 10px 0 210px;
+	background-color: white;	
+	border-radius: 1%; 
+}
+.section2{
+	float: left;
+	width: 250px; 
+	height: 357px;
+	margin: 40px 10px 0 10px;
+	background-color: white;	
+	border-radius: 1%; 
+}
+.section12 img{
+	width: 150px;
+	height: 200px; 
+	margin: 0 0 0 47px;
+}
+.section2 img{
+	width: 150px;
+	height: 200px; 
+	margin: 0 0 0 47px;
+}
+
+/* LOGIN */
+
+.loginregisterform{
+	width: 400px; 
+	height: 620px; 
+	margin: -100px 0 30px 560px;
+	background-color: white; 
+}
+.loginform p{
+	float: left; 
+	font-size: 30px; 
+	margin-bottom: 10px;
+}
+.loginform form{
+	margin-top: 100px; 
+	margin-right: 300px; 
+}
+.loginform form input{
+	width: 300px; 
+	height: 30px; 
+}
+.registerform p{
+	float: left; 
+	font-size: 30px; 
+	margin-bottom: 10px; 
+}
+.registerform form{
+	margin-top: 20px; 
+	margin-right: 300px;
+	margin-top: -10px; 
+}
+.registerform form input{
+	width: 300px; 
+	height: 30px; 
+}
+
+/* SELL SECTION */
+
+.sell-container{
+	height: 500px; 
+}
+.sell-section1{
+	background-color: white; 
+	height: 500px; 
+	width: 600px; 
+	float: left; 
+	margin: 100px -106px 0 155px; 
+}
+.sell-section{
+	background-color: white; 
+	height: 500px; 
+	width: 600px; 
+	float: left; 
+	margin: 100px 2px 20px 107px;  
+}
+.sell-section1 img{
+	height: 400px; 
+	width: 300px;
+	margin: 10px 0 0 130px; 
+}
+.product-title{
+	margin: 50px 0 -80px 0; 
+	text-align: center; 
+	font-size: 30px; 
+}
+.sell-description{
+	margin-left: 30px; 
+	margin-top: 40px; 
+}
+.pricetag{
+	background-color: black; 
+	width: 160px;
+	height: 60px; 
+	margin: 40px 0 0 40px; 
+	border-radius: 10%; 
+}
+.pricetag p{
+	color: white; 
+	text-align: center;  
+	font-size: 35px;
+	margin-top: 5px; 
+}
+.inventory{
+	margin-top: 20px; 
+	margin-left: 40px; 
+	background-color: white;
+	border: 1px solid green; 
+	width: 100px;
+	height: 30px; 
+}
+.inventory p{
+	margin-top: 5px; 
+	text-align: center; 
+	font-size: 15px; 
+	color: green; 
+}
+.order-btn{
+	margin-top: 20px; 
+	margin-left: 40px; 
+	background-color: yellow;
+	border: 1px solid black; 
+	width: 100px; 
+	height: 30px; 
+}
+.order-btn:hover{
+	background-color: white; 
+}
+.order-btn a{
+	margin-top: 5px; 
+	margin-left: 9px;  
+	font-size: 20px; 
+	text-decoration: none; 
+	color: black; 
+}
+.extra-sell-information{
+	background-color: white;
+	margin: 5px 0 5px 40px; 
+}
+.extra-sell-information p{
+	color: black;
+	font-size: 16px; 
+}
+.extra-product-information{
+	margin: 10px 0 0 40px; 
+	background-color: white; 
+	width: 400px; 
+}
+.extra-product-information1{
+	color: green;
+}
+.extra-product-information1:hover{
+	color: green;
+	text-decoration: none;
+} 
+
+/* AANBIEDINGEN */ 
+
+.aanbiedingen-container{
+	height: 600px;
+}
+.aanbiedingen-title{
+	margin: 60px 0 0 0; 
+	text-align: center;
+	font-size: 30px; 
+}
+.aanbiedingen-title p{ 
+	color: black; 
+}
+
+/* KLANTENSERVICE */
+
+.klantenservice-container{
+	height: 400px; 
+}
+.klantenservice-information{
+	margin: 100px 0 0 470px; 
+	font-size: 30px; 
+	background-color: lightgrey; 
+	width: 500px; 
+}
+.klantenservice-information p{
+	color: black; 
+}
+.zakelijk-container{
+	height: 400px; 
+}
+.zakelijk-information{
+	margin: 120px 0 0 470px;
+	font-size: 30px; 
+	background-color: white; 
+}
+.zakelijk-information p{
+	color: red; 
+}
+
+/* INFORMATIE */
+
+.informatie-container{
+	height: 400px;
+}
+.informatie-background{
+	margin: 75px 0 0 500px; 
+	background-color: lightgrey; 
+	width: 500px; 
+}
+.informatie-information{
+	font-size: 20px; 
+}
+
+/* BETALEN */
+
+.betalen-small-container{
+	width: 400px; 
+	height: 400px; 
+	margin: -70px 0 30px 560px;
+	background-color: white; 
+}
+.betalen-form p{
+	float: left; 
+	font-size: 30px; 
+	margin-bottom: 10px;
+}
+.betalen-small-container form{
+	margin-top: 100px; 
+	margin-right: 300px; 
+}
+.betalen-small-container form input{
+	width: 300px; 
+	height: 30px; 
+}
+.betaling-message{
+	margin: 80px 0 0 0;
+	text-align: center; 
+}
+.betaling-message a{
+	text-decoration: none; 
+	color: black; 
+}
+.betaling-message .betalinglink{
+	text-decoration: none; 
+	color: black; 
+}
+.betaling-message .betalinglink:hover{
+	text-decoration: underline;
+	color: lightgrey; 
+}
+
+/* FOOTER */
+
+.footer{
+	background-color: black; 
+	height: 24px; 
+	margin-bottom: 0;
+	margin-top: 500px; 
+}
+.footertext1{
+	margin-left: 500px; 
+	margin-right: 250px; 
+}
+.footer a{
+	font-size: 20px;  
+	color: white; 
+	text-decoration: underline; 
+	margin-right: 250px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
